@@ -1,4 +1,4 @@
-# UnB-CIC #
+ # UnB-CIC #
 
 Modelo padrão de formatação de documentos acadêmicos do [Departamento de Ciência da Computação](https://www.cic.unb.br) da [Universidade de Brasília](https://www.unb.br). Este modelo existe para **padronizar** a formatação dos documentos, portanto **evite** modificar a classe ou usar configurações/pacotes diferentes dos definidos.
 

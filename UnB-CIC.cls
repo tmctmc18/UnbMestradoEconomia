@@ -825,7 +825,7 @@
 	    \fi%
     \fi%
 
-	\@conteudoPreTextual%
+%\@conteudoPreTextual%
 }
 
 
@@ -891,7 +891,7 @@
 }%
 
 \newcommand{\@conteudoPreTextual}{%
-	\maketitle%
+	%\maketitle%
 	\if@qualificacao\else%
 		\@IncluirSecao{dedicatoria}%
 		\@IncluirSecao{agradecimentos}%
