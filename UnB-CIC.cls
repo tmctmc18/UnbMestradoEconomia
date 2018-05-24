@@ -5,8 +5,8 @@
 %% --- Contextualização do departamento ---
 %%
 
-\def\@departamento{Departamento de Ci\^{e}ncia da Computa\c{c}\~{a}o}
-\def\@instituto{Instituto de Ci\^{e}ncias Exatas}
+\def\@departamento{Faculdade de Economia, Administra\c{c}\~{a}o e Contabilidade}
+\def\@instituto{Instituto de Economia}
 \def\@universidade{Universidade de Bras\'{\i}lia}
 \def\@siglauni{UnB}
 \def\@cidade{Bras\'ilia}
@@ -61,8 +61,10 @@
 
 \newif\if@ppca\@ppcafalse%
 \DeclareOptionX{ppca}{\@ppcatrue%
-					\gdef\@nomeDoPrograma{Computa\c{c}\~{a}o Aplicada}%
-					\gdef\@nomecurso{Mestrado Profissional}}%
+					%\gdef\@nomeDoPrograma{Computa\c{c}\~{a}o Aplicada}%
+					%\gdef\@nomecurso{Mestrado Profissional}}%rogerio
+					\gdef\@nomeDoPrograma{Economia \'{A}rea de Concentra\c{c}\~{a}o em Gest\~{a}o Econ\^{o}mica de Finan\c{c}as P\'{u}blicas}%
+					\gdef\@nomecurso{Mestrado Profissional}}%rogerio
 
 \newif\if@qualificacao\@qualificacaofalse%
 \DeclareOptionX{qualificacao}{\@qualificacaotrue}%
@@ -825,7 +827,7 @@
 	    \fi%
     \fi%
 
-%\@conteudoPreTextual%
+\@conteudoPreTextual% Rogerio
 }
 
 
@@ -891,14 +893,14 @@
 }%
 
 \newcommand{\@conteudoPreTextual}{%
-	%\maketitle%
+	\maketitle% Rogerio
 	\if@qualificacao\else%
 		\@IncluirSecao{dedicatoria}%
 		\@IncluirSecao{agradecimentos}%
 	\fi%
-	\@IncluirSecao{resumo}%
+	%\@IncluirSecao{resumo}% rogerio
 	\selectlanguage{american}%
-	\@IncluirSecao{abstract}%
+	%\@IncluirSecao{abstract}%rogerio
 	\selectlanguage{brazil}%
     \selectbiblanguage{brazil}%
 	\@erroSeNaoExiste{bibliografia.bib}%
