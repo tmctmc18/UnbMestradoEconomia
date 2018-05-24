@@ -903,7 +903,7 @@
 	%\@IncluirSecao{abstract}%rogerio
 	\selectlanguage{brazil}%
     \selectbiblanguage{brazil}%
-	\@erroSeNaoExiste{bibliografia.bib}%
+	\@erroSeNaoExiste{mendeley_v2.bib}%
 
 	\tableofcontents%
 	\iftotalfigures\listoffigures\fi%
