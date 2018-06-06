@@ -5,9 +5,9 @@
 %% --- Contextualização do departamento ---
 %%
 
-\def\@departamento{Faculdade de Economia, Administra\c{c}\~{a}o e Contabilidade}
-\def\@instituto{Instituto de Economia}
-\def\@universidade{Universidade de Bras\'{\i}lia}
+\def\@departamento{Faculdade de Economia, Administra\c{c}\~{a}o, Contabilidade e Gest\~{a}o de Pol\'{i}ticas P\'{u}blicas}
+\def\@instituto{}
+\def\@universidade{Universidade de Bras\'{i}lia}
 \def\@siglauni{UnB}
 \def\@cidade{Bras\'ilia}
 \def\@uf{DF}
@@ -836,7 +836,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\titulo}[1]{\title{#1}}%
 
-\def\@texpath{tex}%
+%\def\@texpath{tex_exemplo}%Rogerio
+\def\@texpath{tex_projeto}%Rogerio
 \newcommand{\@erroSeNaoExiste}[1]{%
     \IfFileExists{#1}{}%
 	    {\ClassError{UnB-CIC}%
@@ -899,7 +900,7 @@
 		\@IncluirSecao{agradecimentos}%
 	\fi%
 	%\@IncluirSecao{resumo}% rogerio
-	\selectlanguage{american}%
+% 	\selectlanguage{american}%
 	%\@IncluirSecao{abstract}%rogerio
 	\selectlanguage{brazil}%
     \selectbiblanguage{brazil}%
