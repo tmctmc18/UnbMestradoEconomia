@@ -837,7 +837,7 @@
 \newcommand{\titulo}[1]{\title{#1}}%
 
 %\def\@texpath{tex_exemplo}%Rogerio
-\def\@texpath{tex_projeto}%Rogerio
+\def\@texpath{tex}%Rogerio
 \newcommand{\@erroSeNaoExiste}[1]{%
     \IfFileExists{#1}{}%
 	    {\ClassError{UnB-CIC}%
