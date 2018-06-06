@@ -1,6 +1,6 @@
 \NeedsTeXFormat{LaTeX2e}[1994/12/01]
 \ProvidesClass{UnB-CIC}[2014/07/10 Classe para trabalhos CIC UnB]
-
+\usepackage{verbatim}
 %%
 %% --- Contextualização do departamento ---
 %%
