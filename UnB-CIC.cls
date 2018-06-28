@@ -141,7 +141,8 @@
 
 
 \RequirePackage[brazil,american]{babel}% Idiomas
-\RequirePackage[fixlanguage]{babelbib}%  Idioma das referências
+%\RequirePackage[fixlanguage]{babelbib}%  Idioma das referências
+\RequirePackage[fixlanguage]{abntex2cite}%  Idioma das referências
 \RequirePackage[utf8]{inputenc}%         Arquivos na codificação UTF-8
 \RequirePackage[T1]{fontenc}%            Habilita busca com caracteres latinos
 \RequirePackage{lmodern}%                Habilita busca com caracteres latinos
@@ -900,10 +901,10 @@
 		\@IncluirSecao{agradecimentos}%
 	\fi%
 	%\@IncluirSecao{resumo}% rogerio
-% 	\selectlanguage{american}%
+ 	\selectlanguage{american}%
 	%\@IncluirSecao{abstract}%rogerio
 	\selectlanguage{brazil}%
-    \selectbiblanguage{brazil}%
+    %\selectbiblanguage{brazil}%
 	\@erroSeNaoExiste{mendeley_v2.bib}%
 
 	\tableofcontents%
